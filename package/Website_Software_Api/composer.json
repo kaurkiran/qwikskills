@@ -1,0 +1,14 @@
+{
+    "name": "Webcolorzpos/Website_Software_Api",
+    "description": "send email",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":{
+    "psr-4":{
+        "Webcolorzpos\\Website_Software_Api\\":"src/"
+        }
+    }
+
+}

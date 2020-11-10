@@ -1,0 +1,20 @@
+{
+    "name": "Webcolorzpos/CertificationMaster",
+    "description": "send email",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "",
+            "email": ""
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":{
+    "psr-4":{
+        "Webcolorzpos\\CertificationMaster\\":"src/"
+        }
+    }
+    
+}

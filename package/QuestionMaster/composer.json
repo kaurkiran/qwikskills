@@ -1,0 +1,20 @@
+{
+    "name": "Webcolorzpos/QuestionMaster",
+    "description": "send email",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rahul Radadiya",
+            "email": "rahul@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":{
+    "psr-4":{
+        "Webcolorzpos\\QuestionMaster\\":"src/"
+        }
+    }
+    
+}

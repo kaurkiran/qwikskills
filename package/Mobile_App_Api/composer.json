@@ -1,0 +1,14 @@
+{
+    "name": "Webcolorzpos/Mobile_App_Api",
+    "description": ",mobile application api",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":{
+    "psr-4":{
+        "Webcolorzpos\\Mobile_App_Api\\":"src/"
+        }
+    }
+
+}

@@ -1,0 +1,12 @@
+1. option to update all screen toastr message from One file.
+2. Product Feature alter queries.
+3.HOD Master.
+4.Enter trigger based on class name.
+# Employee Bill Reprint permission
+# Employee Kot Delete permission
+# Employee Kot Transfer Permission
+
+ALTER TABLE `users` ADD `delete_kot` INT(1) NULL DEFAULT NULL AFTER `discount_val_on_billing`, ADD `transfer_kot` INT(1) NULL DEFAULT NULL AFTER `delete_kot`, ADD `reprint_bill` INT(1) NULL DEFAULT NULL AFTER `transfer_kot`;
+
+ALTER TABLE `sales_bill_payment_details` ADD `wallet_type_id` BIGINT(20) UNSIGNED NULL DEFAULT NULL AFTER `payment_method_id`; 
+ALTER TABLE `sales_bills` ADD `sales_type` INT(10) NOT NULL DEFAULT '1' COMMENT '1=sale bills,2 = home delivery,3= take away' AFTER `company_id`; 
